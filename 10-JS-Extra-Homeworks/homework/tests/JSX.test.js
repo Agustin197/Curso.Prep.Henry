@@ -5,7 +5,7 @@ const {
     capToFront,
     asAmirror,
     capicua,
-    deleteAbc,
+    deleteAbc, 
     sortArray,
     buscoInterseccion,
 } = require('../homework');

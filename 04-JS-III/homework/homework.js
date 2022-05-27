@@ -13,7 +13,7 @@ function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
 {
-  return (array[array.length - 1]) 
+  return array.pop()
 }
 }
 
@@ -30,11 +30,10 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
-var arrayu = []
-  for(var i = 0; i < array.length;i++){
-arrayu[i] = array[i] + 1 }
-{return arrayu }
-
+  let incrementador = []
+  for (let i = 0; i < array.length; i++) {
+    incrementador[i] = array[i] + 1}
+    return incrementador
 }
 
 function agregarItemAlFinalDelArray(array, elemento) {
